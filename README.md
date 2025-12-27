@@ -41,17 +41,18 @@ Group_19/
   - Phân tích tương quan và phân phối dữ liệu
   - Đánh giá chất lượng dữ liệu
 
-### Notebook 2: Analysis Questions (Câu 1-5)
-- **Nội dung:** Trả lời 5 câu hỏi phân tích chính
+### Notebook 2: Analysis Questions (Câu 1-6)
+- **Nội dung:** Trả lời 5 câu hỏi phân tích chính và 1 câu hỏi dùng machine learning model.
 - **Các câu hỏi:**
   1. Sự kết hợp Platform-Genre nào mang lại doanh số trung bình cao nhất?
   2. Doanh số game thay đổi như thế nào theo vòng đời của nền tảng?
   3. Thể loại game nào đang tăng trưởng/suy giảm theo thời gian?
   4. Publisher nào có tỷ lệ tạo ra "hit game" cao nhất?
   5. Có sự khác biệt về hiệu suất giữa publisher lớn và nhỏ không?
+  6. Có thể dự đoán doanh số của game dựa trên các thuộc tính không? (modeling)
 
 ### Notebook 3: Modeling & Conclusion
-- **Nội dung:** Xây dựng model ML và kết luận
+- **Nội dung:** Xây dựng model ML dự đoán doanh số game (câu hỏi 6) và kết luận
 - **Bao gồm:**
   - Chuẩn bị dữ liệu cho Machine Learning
   - Huấn luyện và so sánh 3 models (Linear Regression, Random Forest, Gradient Boosting)
