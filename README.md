@@ -2,9 +2,26 @@
 
 ## Mô tả đồ án
 
-Đồ án này phân tích dataset doanh số bán video game toàn cầu từ VGChartz, với hơn 16,000 game được phát hành từ những năm 1980 đến 2020. Mục tiêu là khám phá các xu hướng thị trường, phân tích các yếu tố ảnh hưởng đến doanh số, và xây dựng model dự đoán doanh số game.
 
-**Link dataset:** https://www.kaggle.com/datasets/gregorut/videogamesales
+## Mô tả dataset
+
+Dataset sử dụng trong đồ án là dữ liệu doanh số bán video game toàn cầu, được thu thập từ trang VGChartz thông qua kỹ thuật web scraping. Mỗi dòng đại diện cho một trò chơi điện tử, kèm theo các thông tin như nền tảng phát hành (Platform), năm phát hành (Year), thể loại (Genre), nhà phát hành (Publisher), doanh số bán ra tại các khu vực Bắc Mỹ, Châu Âu, Nhật Bản, các khu vực khác và tổng doanh số toàn cầu.
+
+**Các thuộc tính chính:**
+- Rank: Thứ hạng theo doanh số toàn cầu
+- Name: Tên game
+- Platform: Nền tảng phát hành (PS4, Xbox One, PC, ...)
+- Year: Năm phát hành
+- Genre: Thể loại game (Action, Sports, RPG, ...)
+- Publisher: Nhà phát hành
+- NA_Sales, EU_Sales, JP_Sales, Other_Sales: Doanh số từng khu vực (triệu USD)
+- Global_Sales: Tổng doanh số toàn cầu (triệu USD)
+
+Dataset gồm hơn 16,000 bản ghi, trải dài từ năm 1980 đến 2020, phản ánh bức tranh tổng quan của thị trường game toàn cầu. Dữ liệu có thể tải từ Kaggle: https://www.kaggle.com/datasets/gregorut/videogamesales
+
+**Nguồn gốc và quyền sử dụng:**
+Dữ liệu được chia sẻ công khai trên Kaggle cho mục đích học tập và nghiên cứu, không có license bản quyền cụ thể. Khi sử dụng cần ghi rõ nguồn và tuân thủ chính sách của Kaggle và VGChartz.
+
 
 ## 👥 Thông tin nhóm
 
